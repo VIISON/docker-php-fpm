@@ -4,6 +4,7 @@ RUN apt-get update \
  && apt-get install --no-install-recommends -y \
   curl \
   ca-certificates \
+  git \
  && rm -rf /var/lib/apt/lists/*
 
 RUN apt-key adv --keyserver keys.gnupg.net --recv-keys 89DF5277 \
