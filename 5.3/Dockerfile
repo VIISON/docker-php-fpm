@@ -20,6 +20,7 @@ RUN curl -L https://www.dotdeb.org/dotdeb.gpg | apt-key add - \
   php5-gd \
   php5-mcrypt \
   php5-imagick \
+  php-soap \
  && rm -rf /var/lib/apt/lists/*
 
 RUN curl -L http://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz | tar xzf - \
